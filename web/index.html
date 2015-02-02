@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Smart Panel Space</title>
+  <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+           <link rel="stylesheet" href="css/reset.css">
+
+</head>
+
+<body>
+  
+  <!-- multistep form -->
+<form id="msform" method="post" action="Select.do">
+	<!-- progressbar -->
+	<ul id="progressbar">
+		<li class="active">Working Islet</li>
+		<li>Storage Islet</li>
+		<li>Research Islet</li>
+                <li>Rally Islet</li>
+                <li>Multiple Purpose Islet</li>
+                <li>Support Islet</li>
+	</ul>
+	<!-- fieldsets -->
+	<fieldset>
+		<h2 class="fs-title">How many Working Islets would you need?</h2>
+		<h3 class="fs-subtitle">Office and Management Space,serving up to 3 visitors(green colour)</h3>
+                
+		<input type="number" name="nhsida_0" placeholder="working islets" />
+		<input type="button" name="next" class="next action-button" value="Next" />
+	</fieldset>
+	<fieldset>
+		<h2 class="fs-title">Storage Islets</h2>
+		<h3 class="fs-subtitle">File System and Bookshelves,serving up to 4 visitors(orange colour)</h3>
+		<input type="number" name="nhsida_1" placeholder="storage islets" />
+		<input type="button" name="previous" class="previous action-button" value="Previous" />
+		<input type="button" name="next" class="next action-button" value="Next" />
+	</fieldset>
+	<fieldset>
+		<h2 class="fs-title">Research Islets</h2>
+		<h3 class="fs-subtitle">Lab or Library Islets,serving 2 visitors(yellow colour)</h3>
+		<input type="number" name="nhsida_2" placeholder="research islets" />
+		<input type="button" name="previous" class="previous action-button" value="Previous" />
+		<input type="button" name="next" class="next action-button" value="Next" />
+	</fieldset>
+        <fieldset>
+		<h2 class="fs-title">Rally Islets</h2>
+		<h3 class="fs-subtitle">Meeting Point and Coffee Space(blue colour)</h3>
+		<input type="number" name="nhsida_3" placeholder="rally islets" />
+		<input type="button" name="previous" class="previous action-button" value="Previous" />
+		<input type="button" name="next" class="next action-button" value="Next" />
+	</fieldset>
+        <fieldset>
+		<h2 class="fs-title">Multiple Purpose Islets</h2>
+		<h3 class="fs-subtitle">Exhibit Islet for digital projections,serving 5 visitors(purple colour)</h3>
+		<input type="number" name="nhsida_4" placeholder="multiple purpose islets" />
+		<input type="button" name="previous" class="previous action-button" value="Previous" />
+		<input type="button" name="next" class="next action-button" value="Next" />
+	</fieldset>
+        <fieldset>
+		<h2 class="fs-title">Support Islets</h2>
+		<h3 class="fs-subtitle">Secretary,Reception and Restaurant Islet serving 3 users(2 visitors and one worker)(red colour)</h3>
+		<input type="number" name="nhsida_5" placeholder="support islets" />
+		<input type="button" name="previous" class="previous action-button" value="Previous" />
+		<input type="submit" name="submit" class="submit action-button" value="Submit" />
+	</fieldset>
+</form>
+
+<!-- jQuery -->
+<script src="http://thecodeplayer.com/uploads/js/jquery-1.9.1.min.js" type="text/javascript"></script>
+<!-- jQuery easing plugin -->
+<script src="http://thecodeplayer.com/uploads/js/jquery.easing.min.js" type="text/javascript"></script>
+
+<script src="js/index.js"></script>
+
+</body>
+
+</html>
